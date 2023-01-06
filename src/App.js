@@ -9,8 +9,23 @@ export default function App() {
         <main>
           <Dictionary defaultKeyWord="sunset" />
         </main>
-        <footer className="App-footer">
-          <small>Coded by Aji Sainabou Njie</small>
+        <footer>
+          This project was coded by Aji Sainabou Njie and is{" "}
+          <a
+            href="https://github.com/Aji-Sainabou/dictionary-project"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            open-sourced on GitHub
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://dictionary-app-aji.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            hosted on Netlify
+          </a>
         </footer>
       </div>
     </div>
